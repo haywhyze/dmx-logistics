@@ -159,10 +159,6 @@
   bottom: 0;
 }
 
-.container-fluid {
-  padding: 0 50px;
-}
-
 /* ie10+ */
 @media (min-width: 768px) {
   .app-align-center {
