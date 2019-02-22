@@ -1,3 +1,14 @@
+:root {
+  font-size: calc(11px + (20 - 11) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* credit Mike Riethmuller
+"https://madebymike.com.au/writing/fluid-type-calc-examples/" */
+* {
+  font: inherit;
+}
+
+
 /* navbar */
 .app-navbar {
   font-weight: 500;
