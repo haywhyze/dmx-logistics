@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
 }
 
 .app-block-marketing-grid .container {
@@ -110,7 +110,7 @@
 
 
 .btn-lg {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .block-secondary .btn-lg {
@@ -159,6 +159,9 @@
   bottom: 0;
 }
 
+.container-fluid {
+  padding: 0 50px;
+}
 
 /* ie10+ */
 @media (min-width: 768px) {
@@ -172,8 +175,8 @@
   #logo {
     width: 80px;
   }
-}
 
-.container-fluid {
-  padding: 0 50px;
+  .container-fluid {
+    padding: 0 10px;
+  }
 }
